@@ -1,5 +1,7 @@
 {
   "name": "FacebookClone",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

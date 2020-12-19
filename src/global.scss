@@ -24,3 +24,44 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    src: url('assets/fonts/Segoe\ UI.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: normal;
+    src: url('assets/fonts/Segoe\ UI\ Italic.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: bold;
+    src: url('assets/fonts/Segoe\ UI\ Bold.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: bold;
+    src: url('assets/fonts/Segoe\ UI\ Bold\ Italic.woff') format('woff');
+}
+
+* {
+    font-family: 'Segoe UI';
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    padding: 0px;
+    margin: 0px;
+    color: var(--ion-color-medium);
+}

@@ -1,0 +1,51 @@
+<ion-content>
+  <header>
+    <div class="header-cont">
+      <div class="logo">
+        <h1>facebook</h1>
+      </div>
+      <div class="actions">
+        <div class="btn">
+          <ion-icon name="search"></ion-icon>
+        </div>
+        <div class="btn">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <ion-segment value="home" (ionChange)="segmentChanged($event)">
+      <ion-segment-button value="home">
+        <ion-icon name="home"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="groups">
+        <ion-icon name="people-circle-outline"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="watch">
+        <ion-icon name="tv-outline"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="market">
+        <ion-icon name="basket-outline"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="notifications">
+        <ion-icon name="notifications-outline"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </ion-segment-button>
+    </ion-segment>
+  </header>
+  <ion-content class="main-content">
+    <ion-slides pager="false" [options]="slideOpts">
+      <ion-slide>
+        <ion-content class="home-content">
+          <app-home></app-home>
+        </ion-content>
+      </ion-slide>
+      <ion-slide>
+        <ion-content>
+          <h1>Slide 2</h1>
+        </ion-content>
+      </ion-slide>
+    </ion-slides>
+  </ion-content>
+</ion-content>

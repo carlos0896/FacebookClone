@@ -1,0 +1,231 @@
+.add-content {
+    background-color: var(--ion-color-tertiary-contrast);
+    margin-bottom: 10px;
+    .row-1 {
+        display: flex;
+        height: 58px;
+        align-items: center;
+        border-bottom: 1px var(--icon-background) solid;
+        .profile-image {
+            margin: 9px;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            img {
+                width: inherit;
+                height: inherit;
+            }
+        }
+        .input-think {
+            flex-grow: 1;
+            padding-right: 10px;
+            p {
+                width: 100%;
+                border-radius: 50px;
+                border: 1px var(--icon-background) solid;
+                height: 34px;
+                padding-left: 15px;
+                font-size: 16px;
+                text-align: start;
+                display: flex;
+                align-items: center;
+                color: var(--icon-black);
+            }
+        }
+    }
+    .row-2 {
+        display: flex;
+        height: 50px;
+        align-items: center;
+        .col {
+            width: 33.33333%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: inherit;
+            .divider {
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                height: 30px;
+                margin-top: 10px;
+                width: 1px;
+                background-color: var(--icon-background);
+            }
+            ion-icon {
+                margin-right: 5px;
+                font-size: 18px;
+            }
+            .red {
+                color: var(--ion-color-danger);
+            }
+            .green {
+                color: var(--ion-color-success);
+            }
+            .purpple {
+                color: var(--ion-color-tertiary);
+            }
+            p {
+                font-size: 12px;
+                font-weight: bold;
+                position: relative;
+            }
+        }
+    }
+}
+.create-room {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    overflow-x: scroll;
+    display: -webkit-inline-box;
+    margin-bottom: 10px;
+    .create-room-btn {
+        height: 40px;
+        margin: 10px 8px 10px 10px;
+        display: flex;
+        align-items: center;
+        border: 2px rgba(148, 201, 245, 0.514) solid;
+        border-radius: 50px;
+        ion-icon {
+            font-size: 23px;
+            margin: 0px 5px 0px 15px;
+            color: var(--ion-color-tertiary);
+        }
+        p {
+            font-size: 12px;
+            width: 30px;
+            margin-right: 15px;
+            color: var(--ion-color-primary);
+            font-weight: bold;
+        }
+    }
+    .bubble {
+        height: 40px;
+        width: 40px;
+        margin: 10px 8px;
+        border-radius: 50%;
+        position: relative;
+        img {
+            width: inherit;
+            height: inherit;
+            border-radius: 50%;
+        }
+        .circle {
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            border: 2px white solid;
+            border-radius: 50%;
+            bottom: -2px;
+            right: -2px;
+            background-color: var(--ion-color-success);
+        }
+    }
+}
+.histories {
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    .row-1 {
+        height: 178px;
+        width: 100%;
+        overflow-x: scroll;
+        display: -webkit-inline-box;
+        .space {
+            width: 10px;
+        }
+        .card {
+            width: 90px;
+            height: 160px;
+            margin: 10px 3px 0px 3px;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+            .image {
+                background-image: url('https://cdn.vox-cdn.com/thumbor/dpkpxkwk-jy656hc6yhb5Ibwbcs=/0x0:2040x1360/1200x800/filters:focal(866x1034:1192x1360)/cdn.vox-cdn.com/uploads/chorus_image/image/61660337/akrales_180424_2503_0061.0.jpg');
+                background-size: auto 100%;
+                background-position: center;
+                width: inherit;
+                position: absolute;
+                top: 0px;
+                height: inherit;
+            }
+            .profile-image {
+                position: absolute;
+                left: 7px;
+                top: 7px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 2px var(--ion-color-primary) solid;
+                background-color: rgba(0, 0, 0, 0.438);
+                img {
+                    width: 31px;
+                    height: 31px;
+                    border-radius: 50%;
+                    margin-top: 3px;
+                }
+            }
+        }
+        .add-card {
+            border: 2px var(--icon-background) solid;
+            background-color: #f4f4f5;
+            .image {
+                background-image: url(https://scontent.fscl8-1.fna.fbcdn.net/v/t1.0-9/126073736_1249959738704242_6191450175276977338_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGCRo1w4cYUHUWA003SpEnvDdN9ea6YpFoN0315rpikWk_tQJ4nUolYuL8kCB-yr681vGFYgBUqOqBYbJUGX7gE&_nc_ohc=S7IVm6o0Rv0AX-I5H5q&_nc_ht=scontent.fscl8-1.fna&oh=a82dd7cf3bf1929c4711ba5e46c4d182&oe=5FF8EADB);
+                background-size: auto 100%;
+                background-position: center;
+                width: inherit;
+                position: absolute;
+                top: 0px;
+                height: 100px;
+            }
+            .add-btn {
+                position: absolute;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background-color: var(--ion-color-primary);
+                border: 3px #f4f4f5 solid;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 82.5px;
+                left: 27.5px;
+                ion-icon {
+                    color: white;
+                    font-size: 25px;
+                }
+            }
+            .publish-text {
+                position: absolute;
+                width: inherit;
+                bottom: 0px;
+                height: 40px;
+                font-size: 13px;
+                color: var(--ion-color-dark);
+                font-weight: bold;
+            }
+        }
+    }
+    .row-2 {
+        height: 50px;
+        .see-all-histories {
+            height: 40px;
+            background-color: #e7f3ff;
+            margin: 0px 10px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-size: 16px;
+                font-weight: bold;
+                color: #3d83ef;
+            }
+        }
+    }
+}
